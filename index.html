@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QRGen | Home</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="index.html">QR<span>Gen</span></a>
+
+            <img id="mobile-cta" class="mobile-menu" src="assets/burger-menu-right-svgrepo-com.svg" alt="hamburger-icon" width="30">
+
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="assets/burger-menu-svgrepo-com.svg" alt="close navigation" height="45">
+                <ul class="first-nav">
+                    <li class="current"><a href="#feature-section">Features</a></li><br>
+                    <li class="current"><a href="#review-section">Reviews</a></li><br>
+                </ul> 
+
+               <ul class="second-nav">
+                    <li class="premium-cta"><a href="generator.html">QR</a></li>
+               </ul> 
+
+            </nav>
+        </div>
+    </div>
+
+
+    <section class="hero">
+        <div class="container">
+            <div class="left-col">
+                <p class="subhead">  QRGen</p>
+                <h1>Generate. Scan.<br> Stand Out.</h1>
+
+                <div class="hero-cta">
+                    <a href="generator.html" class="premium-cta">Try For Free</a>
+                </div>
+            </div>
+
+            <img src="assets/gerd-leufert-logo-06.jpg" class="hero-img" alt="imag">
+        </div>
+
+    </section>
+
+    <section id="feature-section" class="about-section">
+        <div class="container">
+            <ul class="about-list">
+                    <li>Unlimited And Instant QR Code Generation</li>
+                    <li>Seamless Sharing Options</li>
+                    <li>Customizable Designs</li>
+                    <li>Unlimited And Instant QR Code Generation</li>
+                    <li>  Mobile-Friendly Design</li>
+                    <li>Fast and Intuitive Interface</li>
+
+                    </li>
+            </ul>
+
+        </div>
+    </section>
+
+    <section id="review-section" class="review-section">
+        <ul>
+            <li> <img src="assets/profile-user-svgrepo-com.svg">
+                <blockquote>"Incredible tool! I created a professional-looking QR code in seconds. The customization options are a game-changer!"
+                </blockquote>
+                <cite><i>- Sophia R.</i></cite>
+            </li>
+
+            <li> <img src="assets/profile-user-svgrepo-com.svg">
+                <blockquote>"I love how user-friendly this platform is. Even as a beginner, I had no trouble creating and sharing QR codes!"
+                </blockquote>
+                <cite><i>- Liam P.</i></cite>
+
+            </li>
+
+            <li> <img src="assets/profile-user-svgrepo-com.svg">
+                <blockquote>"Quick and easy to use, but I wish there were more color options for customization."
+                </blockquote>
+                <cite><i>- Oliver G. </i></cite>
+
+            </li>
+
+            
+          
+        </ul>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-left">
+                <h2>Contact Us</h2>
+                <br>
+                <div class="email"><a target="_blank" href="mailto:inova0605@gmail.com">Email</a></div>
+            </div>
+
+            <div class="contact-right">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.03900799053!2d72.88118615!3d19.082250749999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1736954596784!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <script>
+
+        const mobileBtn = document.getElementById('mobile-cta')
+        nav = document.querySelector('nav')
+        mobileBtnExit = document.getElementById('mobile-exit');
+
+        mobileBtn.addEventListener('click',()=>{
+            nav.classList.add('menu-btn')
+        })
+
+        mobileBtnExit.addEventListener('click',()=>{
+            nav.classList.remove('menu-btn')
+        })
+
+    </script>
+
+</body>
+</html>
